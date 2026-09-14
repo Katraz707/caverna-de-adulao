@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-
+import { useState } from 'react';
 export default function App() {
   const [busca, setBusca] = useState('');
 
@@ -132,7 +131,7 @@ export default function App() {
                 border: '1px solid #334155',
                 display: 'flex',
                 flexDirection: 'column',
-                justify: 'space-between'
+               justifyContent: 'space-between'
               }}
             >
               <div>
